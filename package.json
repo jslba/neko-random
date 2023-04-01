@@ -1,0 +1,25 @@
+{
+	"name": "neko-random",
+	"version": "0.0.1",
+	"description": "An implementation of neko.Random",
+	"main": "source/index.js",
+	"scripts": {
+		"test": "jest --config=test/jest.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jslba/neko-random.git"
+	},
+	"keywords": [
+		"haxe"
+	],
+	"author": "Angelisium",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jslba/neko-random/issues"
+	},
+	"homepage": "https://github.com/jslba/neko-random",
+	"devDependencies": {
+		"jest": "^29.4.3"
+	}
+}
