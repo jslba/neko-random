@@ -1,4 +1,4 @@
-# [Random][index] implement of neko.Random
+# [Random][index] implement of [neko.Random][nekoRandom]
 
 ![npm](https://img.shields.io/npm/v/neko-random?color=blue&style=flat)
 ![tests](https://img.shields.io/static/v1?label=tests&message=6%20passed&color=brightgreen&style=flat)
@@ -46,6 +46,7 @@ public float(): Float
 ```
 
 [index]: /source/index.js
+[nekoRandom]: https://api.haxe.org/neko/Random.html
 [unittests]: /test/rand.test.js
 [PRNG]: http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/ARTICLES/mt.pdf
 [originalC]: https://web.archive.org/web/20130612121948/http://random.mat.sbg.ac.at/publics/ftp/pub/data/tt800.c
