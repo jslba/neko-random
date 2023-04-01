@@ -47,7 +47,7 @@ public float(): Float
 
 [index]: /source/index.js
 [nekoRandom]: https://api.haxe.org/neko/Random.html
-[unittests]: /test/rand.test.js
+[unittests]: /test/mt_tt800.test.js
 [PRNG]: http://www.math.sci.hiroshima-u.ac.jp/m-mat/MT/ARTICLES/mt.pdf
 [originalC]: https://web.archive.org/web/20130612121948/http://random.mat.sbg.ac.at/publics/ftp/pub/data/tt800.c
 [customizedNeko]: https://github.com/HaxeFoundation/neko/blob/master/libs/std/random.c
