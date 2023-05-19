@@ -10,7 +10,11 @@ class MT_TT800 {
 		0x512c0c03n, 0xea857ccdn, 0x4cc1d30fn, 0x8891a8a1n, 0xa6b7aadbn
 	];
 	constructor(seed = 0) {
-		if (seed > 0 && seed <= 0xffffffff) { // only 32bit seeds
+		if (seed != 0) {
+			// beyond 0x7fffffff neko returns strange numbers (different from the C)
+			if (seed < 1 && seed > 0x7fffffff) {
+				throw "the format for the seed " + seed + " is not supported.";
+			}
 			this.#init(BigInt(seed));
 		}
 	}
