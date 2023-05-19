@@ -10,7 +10,7 @@ class MT_TT800 {
 		0x512c0c03n, 0xea857ccdn, 0x4cc1d30fn, 0x8891a8a1n, 0xa6b7aadbn
 	];
 	constructor(seed = 0) {
-		if (seed > 0 && seed < 0xffffffff) { // only 32bit seeds
+		if (seed > 0 && seed <= 0xffffffff) { // only 32bit seeds
 			this.#init(BigInt(seed));
 		}
 	}
